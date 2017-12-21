@@ -1,0 +1,145 @@
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+body {
+  background: #f5F5f5;
+}
+
+/* Headings */
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+/* Header */
+.header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin-bottom: -25px;
+}
+
+/* Banner */
+
+.main-banner-txt {
+  line-height: 2.7rem;
+  margin-bottom: 15px;
+}
+
+.banner-subhead {
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+  text-shadow: 1px 1px #000;
+  margin-top: 0;
+}
+
+/* Featured */
+
+.featured-sec {
+  margin-top: -20px;
+}
+
+.featured-img {
+  min-height: 200px;
+  object-fit: cover;
+}
+
+.card-col {
+  width: 100%;
+}
+
+/* Skills */
+.skills-sec {
+  margin-top: 15px;
+}
+
+.skills-icon {
+  margin-left: 15px;
+}
+
+/* Footer */
+
+.page-footer {
+  text-align: center;
+  margin-top: -20px;
+}
+
+.social-icon {
+  padding-right: 10px;
+}
+
+.footer-contact-icon {
+  padding-right: 5px;
+}
+
+.footer-main {
+  margin-bottom: 30px;
+}
+
+/*
+ * Media queries
+ */
+
+ @media screen and (min-width: 700px) {
+  .featured-img {
+    min-height: 325px;
+  }
+}
+
+@media screen and (min-width: 990px) {
+
+  /* Links */
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .btn:hover {
+    text-decoration: none;
+  }
+
+  /* Header */
+  .header-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  /* Banner */
+  .home-banner {
+    margin-top: 12px;
+  }
+
+  /* Featured */
+  .featured-img {
+    min-height: 325px;
+  }
+
+  /* Footer */
+ .page-footer {
+    text-align: inherit;
+  }
+
+}
